@@ -10,6 +10,7 @@
 !*.yaml
 !*.yml
 !*.sh
+!*.toml
 !*.md
 !*.svg
 !LICENSE

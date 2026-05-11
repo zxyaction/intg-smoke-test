@@ -9,6 +9,7 @@ Integration plugins and adapters for using [Auriko](https://auriko.ai) with thir
 | Integration | Description | Docs |
 |-------------|-------------|------|
 | [Hermes Agent](./hermes-agent/) | Provider plugin for Hermes Agent | [Guide](https://docs.auriko.ai/integrations/hermes-agent) |
+| [OpenCode](./opencode/) | Provider + model registry for OpenCode | [Guide](https://docs.auriko.ai/integrations/opencode) |
 
 ## Get started
 
