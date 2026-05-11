@@ -1,0 +1,30 @@
+# Deny everything by default, then allow explicitly.
+# Prevents accidental inclusion of private files during sync.
+*
+
+# Allow directory traversal
+!*/
+
+# Allowed file types
+!*.py
+!*.yaml
+!*.yml
+!*.sh
+!*.md
+!*.svg
+!LICENSE
+!.gitignore
+!.github/**
+
+# Always exclude regardless of above
+.env*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*.pickle
+__pycache__/
+*.pyc
+.DS_Store
